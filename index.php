@@ -21,4 +21,4 @@ $contador = 1;
 do {
     echo "Tienes acceso al local privado $contador"."<br>"; 
     $contador++;
-} while ($edad >= 18 && $contador <= 100);  // Si esta condición se cumple el bucle se vuelve a ejecutar, si no se cumple solo se ejecutara el primer bucle y parara;
+} while ($edad >= 18 && $contador <= 100);  // Si esta condición se cumple el bucle se vuelve a ejecutar hasta el final en este caso el 100, si no se cumple solo se ejecutara el primer bucle y parara;
